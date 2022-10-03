@@ -5,17 +5,19 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Mono');
 
 .about-heading{
-    font-size: 10vh;
+    font-size: 8vh;
     font-family: varino;
     color: aliceblue;
-    padding-left: 10%;
+    /* padding-left: 10%; */
+    display: flex;
+    margin: auto;
     color:  rgba(0, 225, 255);
     padding-bottom: 2%;
 }
 p{
     padding: 0 10% 10% 10%;
     color: aliceblue;
-    font-size: 5vh;
+    font-size: 4vh;
     font-family: 'PT Mono','Courier';
 }
 .btn-special{
@@ -38,9 +40,9 @@ p{
   
   .card1{
     background-color: aliceblue;
-    margin-left: 10%;
-    height: 8vh;
-    width: 80%;
+    margin: auto;
+    height: 7vh;
+    width: 60%;
     background: #191c29;
     /* width: var(--card-width); */
     height: var(--card-height);
@@ -72,40 +74,33 @@ p{
       left: -2%;
       animation: spin 2.5s linear infinite;
   }
-  
-  .card1::after {
-    position: absolute;
-    content: "";
-    top: calc(var(--card-height) / 6);
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    transform: scale(0.8);
-    filter: blur(calc(var(--card-height) / 6));
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      opacity: 1;
-    transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
-  }
-  
-  /* @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
-  }
- */
+
+
  .p1{
-    font-size: 5vh;
+    font-size: 4.5vh;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
     text-align: justify;
   }
+  .wrap-abt{
+    display: flex;
+    margin: auto;
+  }
+  @media screen and (max-width: 480px) {
+    .p1{
+       font-size: 2.75vh;
+     }
+     .about-heading{
+      margin-left: 10% ;
+      font-size: 4vh;
+      padding-bottom: 10%;
+  }
+  .card1{
+    width: 90%;
+  }
+  .btn-special{
+    margin-top: 10%;
+    width: 40%;
+  }
+      }
