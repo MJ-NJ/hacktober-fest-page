@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+@font-face{
+  font-family: varino;
+  src: url("./Varino\ -\ Normal.ttf");
+  }
+
+
+.container1{
+  opacity: 0.3;
+  display: flex;
+  background-color: rgb(21,0,25);
+  color:  rgba(0, 225, 255, 0.301);
+  font-family: 'PT Mono','Courier';
+  font-weight: 400;
+  letter-spacing:1px;
+  font-size:20px;
+  /* width: 675px; */
+  overflow: hidden;
+  perspective-origin: center left;
+  perspective: 100px;
+  text-shadow: 0 0 2px #fff;
+  line-height: 25px;
+  margin: auto;
+}
+
+.num {
+  clear: both;
+  transform: rotateY(0deg);
+}
+
+.devider {
+  position: absolute;
+  top:0;
+  width: 14px;
+  height: 100%;
+  background-color: black;
+}
+
+/* .d00 { 
+  left: 10vw;
+}
+
+.d01 { 
+  left: 30vw;
+}
+
+.d02 { 
+  left: 50vw;
+}
+
+.d03 { 
+  left: 70vw;
+}
+
+.d04 { 
+  left: 90vw;
+} */
