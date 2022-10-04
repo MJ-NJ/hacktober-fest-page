@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face{
+    font-family: varino;
+    src: url("./Varino\ -\ Normal.ttf");
+    }
 .abs,
 h2:after,
 .cards .card2 figcaption,
@@ -266,7 +270,7 @@ h2:after {
 
 .sponsorHeader {
   padding: 60px;
-  font-family: 'Poppins', sans-serif;
+  font-family: varino;
   font-size: 4rem;
 }
 
