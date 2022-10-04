@@ -21,8 +21,8 @@ return(
 <div class="footer-right">
 
     <p class="footer-company-about">
-        <span>About the company</span>
-        Thapar Institute of Engineering and Technology (TIET) has been a steady source of highly skilled talent to the nation as well as overseas. A pioneer in engineering education, research and innovation.
+        <span>About the organization</span>
+        The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries.
     </p>
 
 </div>
