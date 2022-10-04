@@ -3,7 +3,7 @@ function About(){
     return(
         <>
     <div className='wrap-abt'>
-    <div className="about-heading">
+    <div className="about-heading animate__animated animate__fadeInUp">
         About Hacktoberfest
     </div>
     </div>
@@ -14,7 +14,7 @@ function About(){
     </p>
     </div>
 
-    <a href='https://hacktoberfest.com/auth/'  className='btn-special'>
+    <a href='https://hacktoberfest.com/auth/'  className='btn-special animate__animated animate__fadeInUp'>
          REGISTER FOR HACKTOBERFEST</a>
     </>
     )
