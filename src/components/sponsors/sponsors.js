@@ -7,10 +7,9 @@ function Sponsors(){
       };
     return(
 <section id="sponsors">
-    <h2 class="sponsorHeader">
-        <strong>Past Sponsors<span></span></strong>
-    </h2>
-
+    <div className="cards-heading">
+        Our Past Sponsors
+        </div>
     <div class="cards">
         <figure class="card2">
             <img src = {require("./sponsors/jio.png")} style={jiostyle}></img>
@@ -32,7 +31,7 @@ function Sponsors(){
                 <img src= {require("./sponsors/IBM.png") }style = {jiostyle}/>
         </figure>
         <figure class="card2">
-                <img src= {require("./sponsors/polygon.png")}/>
+                <img src=  {require("./sponsors/redbull.png") } />
         </figure>
     </div>
 </section>

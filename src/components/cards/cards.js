@@ -1,4 +1,5 @@
 import './cards.css'
+import RepositoryCard from '../RepositoryCard/RepositoryCard';
 function Card(){
     return(
         <>
@@ -6,28 +7,16 @@ function Card(){
     OUR OPEN SOURCE PROJECTS
     </div>
         <div className="card-wrapper">
-        <div className="card">
-            Magic Card 
-        </div>
-        <div className="card">
-            Magic Card
-        </div>
+        <RepositoryCard title = {"To-Do Tasks"} description = {"WebDev-Tasks Is An Easy Portal to practice frontend components."} techStack = {"React.js | Tailwind"} link = {"https://github.com/OWASP-STUDENT-CHAPTER/WebDev-Tasks"}/>
+        <RepositoryCard title = {"Tech Think Tank"} description = {"WebDev-Tasks Is An Easy Portal to practice frontend components. Make Your Commits And Enjoy The Information That Goes Along With It."} techStack = {"Low Code | No Code Track "} link={"https://github.com/OWASP-STUDENT-CHAPTER/LowCode_Owasp"}/>
         </div>
         <div className="card-wrapper">
-        <div className="card">
-            Magic Card 
-        </div>
-        <div className="card">
-            Magic Card
-        </div>
+        <RepositoryCard title = {"Algorithm Visualizer"} description = {"WebDev-Tasks Is An Easy Portal to practice frontend components. Make Your Commits And Enjoy The Information That Goes Along With It."} techStack = {"React.js | Javascript"} link={"https://github.com/OWASP-STUDENT-CHAPTER/Algorithm-Visualizer"}/>
+        <RepositoryCard title = {"Tab Saver Extension"} description = {"WebDev-Tasks Is An Easy Portal to practice frontend components. Make Your Commits And Enjoy The Information That Goes Along With It."} techStack = {"Javascript"} link={"https://github.com/OWASP-STUDENT-CHAPTER/TabSaverExtension"}/>
         </div>
         <div className="card-wrapper">
-        <div className="card">
-            Magic Card 
-        </div>
-        <div className="card">
-            Magic Card
-        </div>
+        <RepositoryCard title = {"Backend-Automation NPM"} description = {"WebDev-Tasks Is An Easy Portal to practice frontend components. Make Your Commits And Enjoy The Information That Goes Along With It."} techStack = {"Express.js | NPM | Typescript | Node.js "} link = {"https://github.com/OWASP-STUDENT-CHAPTER/backend-automation"}/>
+        <RepositoryCard title = {"Hacktober-Fest Page"} description = {"Contribute To This Very Page. Found Any Bugs, Behavior That Is Not Normal ? Make Your Contribution And Help The Open Source !"} techStack = {"React.js | CSS"} link = {"https://github.com/OWASP-STUDENT-CHAPTER/hacktober-fest-page"}/>
         </div>
         </>
     )

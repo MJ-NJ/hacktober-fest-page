@@ -4,7 +4,7 @@ function About(){
         <>
     <div className='wrap-abt'>
     <div className="about-heading">
-        About Hacktober
+        About Hacktoberfest
     </div>
     </div>
     <div className="card1">
@@ -15,7 +15,7 @@ function About(){
     </div>
 
     <a href='https://hacktoberfest.com/auth/'  className='btn-special'>
-         CLICK HERE TO REGISTER</a>
+         REGISTER FOR HACKTOBERFEST</a>
     </>
     )
 }

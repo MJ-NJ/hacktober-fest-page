@@ -11,8 +11,6 @@ function App() {
   return (
     <>
     <Binary/>
-    {/* <Header></Header> */}
-
     <Landing/>
     <About></About>
     <Card></Card>
