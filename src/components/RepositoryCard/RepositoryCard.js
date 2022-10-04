@@ -3,7 +3,7 @@ import '../cards/cards.css'
 function RepositoryCard(props) {
     return (
         <>
-            <a href={props.link} style={{"textDecoration":"none"}}>
+            <a target={"_blank"} href={props.link} style={{"textDecoration":"none"}}>
             <div className="card">
             <div className='git-logo'><img src={require("./github.png")} /></div>
             <div className="repo-heading"> {props.title}</div> 
