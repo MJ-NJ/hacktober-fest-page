@@ -10,12 +10,14 @@ import Sponsors from './components/sponsors/sponsors';
 function App() {
   return (
     <>
-    <Binary/>
-    <Landing/>
-    <About></About>
-    <Card></Card>
-    <Sponsors></Sponsors>
-    <Footer></Footer>
+    <div className='alignItems'>
+      <Binary/>
+      <Landing/>
+      <About></About>
+      <Card></Card>
+      <Sponsors></Sponsors>
+      <Footer></Footer>
+    </div>
     </>
   );
 }

@@ -14,9 +14,9 @@ function Landing() {
                 <img src={require("./logo.png")} style={{ "maxHeight": "500px", "maxWidth": "500px" }}></img>
                 <div className="heading"> ✖ </div>
                 <div className="box1">
-                    <img src={require("../footer/owasp.png")} className="landing-logo" style={{ "maxHeight": "500px", "maxWidth": "500px" }}></img>
+                    <img src={require("../footer/owasp.png")} className="landing-logo" style={{ "maxHeight": "500px", "maxWidth": "500px","zIndex":"-100" }}></img>
                 </div>
-                <a href='https://hacktoberfest.com/auth/' className='btn-special' style={{ "textDecoration": "none" }}>
+                <a target = {"_blank"} href="https://docs.google.com/forms/d/1Snr44jB3V8_VIs-smhBxpWLmukEqdFzYGjKv6FPATXo" className='btn-special' style={{ "textDecoration": "none","zIndex":"1000" }}>
                     REGISTER FOR ORIENTATION</a>
             </div>
         </>

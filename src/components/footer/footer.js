@@ -6,16 +6,15 @@ return(
 
 <div class="footer-left">
 
-    <span><img src = {require("./owasp.png")}></img></span>
+    <span><img className = "footerLogo" src = {require("./owasp.png")}></img></span>
 </div>
 
 <div class="footer-center">
 
     <div>
-        <p><span>Contact-Us</span>owasp_sc@thapar.edu</p>
+        <p><span>Contact-Us</span><a href="mailto:owasp_sc@thapar.edu"> owasp_sc@thapar.edu </a><br/><a href="tel:+919674603907">  +91 9674603907</a></p>
         <p><span>Our-Website</span><a href='https://owasp.co.in/'>owasp.co.in</a></p>
     </div>
-
 </div>
 
 <div class="footer-right">
@@ -24,7 +23,11 @@ return(
         <span>About the organization</span>
         The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries.
     </p>
-
+    <span style={{"color":"white"}}>Join Us On The Following Platforms</span> <br/>
+    <a href='https://github.com/OWASP-STUDENT-CHAPTER' target={"_blank"}><img src="https://img.icons8.com/nolan/64/github.png" style={{"maxWidth":"40px","maxHeight":"40px","paddingTop":"15px","marginRight":"10px"}}/></a>
+    <a href="https://discord.gg/nnZCPbxnZu" target={"_blank"}><img src="https://img.icons8.com/nolan/64/discord.png" style={{"maxWidth":"40px","maxHeight":"40px","paddingTop":"15px","marginRight":"10px"}}/></a>
+    <a href="https://www.linkedin.com/company/owasp-tiet/" target={"_blank"}><img src="https://img.icons8.com/nolan/64/linkedin.png" style={{"maxWidth":"40px","maxHeight":"40px","paddingTop":"15px","marginRight":"10px"}}/></a>
+    <a href="https://www.instagram.com/owasp_tiet/" target={"_blank"}><img src="https://img.icons8.com/nolan/64/instagram-new.png" style={{"maxWidth":"40px","maxHeight":"40px","paddingTop":"15px","marginRight":"10px"}}/></a>
 </div>
 
 </footer>

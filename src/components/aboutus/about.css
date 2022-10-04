@@ -88,9 +88,9 @@ p{
     display: flex;
     margin: auto;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 912px) {
     .p1{
-       font-size: 2.75vh;
+       font-size: 2.0vh;
      }
      .about-heading{
       text-align: center;
@@ -103,12 +103,18 @@ p{
   }
   .btn-special{
     margin-top: 10%;
-    width: 40%;
+    width: 40%
   }
       }
-a{
-  text-decoration: none; 
-}    
+
+@media screen and (max-width: 442px) {
+  
+.btn-special{
+  margin-top: 10%;
+  width: 60%;
+  height: 40%;
+}
+    }
 
 .btn-special:hover{
   filter: drop-shadow(rgba(255, 215, 77, 1) -1px -1px 2px) drop-shadow(rgba(124, 127, 255, 1) 1px 1px 2px);

@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 .footer-distributed{
 	background: rgb(20, 0, 21);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 14px poppins;
 	padding: 55px 50px;
 }
 
@@ -163,7 +162,7 @@
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 14px sans-serif;
+		font: bold 14px varino;
 	}
 
 	.footer-distributed .footer-left,
@@ -187,4 +186,18 @@ img[src*="owasp"]{
     width: 40vh;
     margin-right: auto;
     left: 0%;
+}
+.footerLogo
+{
+	max-height: 400px;
+	max-width: 400px;
+}
+
+@media (max-width: 900px) {
+
+	.footerLogo
+{
+	max-height: 250px;
+	max-width: 250px;
+}
 }

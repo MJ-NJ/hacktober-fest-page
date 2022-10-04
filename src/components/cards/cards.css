@@ -32,7 +32,7 @@
     font-family: varino;
     color: aliceblue;
     padding-left: 5%;
-
+    text-align: center;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -95,6 +95,8 @@
 }
 .card{
   width: 80vw;
+  height: auto;
+  margin-bottom: 20px;
 }
 .cards-heading{
   font-size: 4vh;
@@ -106,6 +108,18 @@
 }
 
       }
+
+@media screen and (max-width: 1025px) {
+  .card-wrapper{
+    flex-direction: column;
+    width: 100vw;
+    padding: 0%;
+  
+  }
+  .card{
+    height: auto;
+  }
+}
 .card:hover{
         transform: scale(1.05);
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
