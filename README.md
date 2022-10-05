@@ -4,11 +4,11 @@
 
 A website made with [:heart] by Owasp-tiet containing all the projects of owasp-tiet participating in Hacktoberfest.
 The website contains following projects:
-- [Web Dev Tasks]("https://github.com/OWASP-STUDENT-CHAPTER/WebDev-Tasks")
-- [Tech Think Tank]("https://github.com/OWASP-STUDENT-CHAPTER/TechThinkTank")
-- [Algorithm Visualizer]("https://github.com/OWASP-STUDENT-CHAPTER/Algorithm-Visualizer")
-- [Tab Saver Extension]("https://github.com/OWASP-STUDENT-CHAPTER/TabSaverExtension")
-- [Backend Automation using NPM]("https://github.com/OWASP-STUDENT-CHAPTER/backend-automation")
+- [Web Dev Tasks](https://github.com/OWASP-STUDENT-CHAPTER/WebDev-Tasks)
+- [Tech Think Tank](https://github.com/OWASP-STUDENT-CHAPTER/TechThinkTank)
+- [Algorithm Visualizer](https://github.com/OWASP-STUDENT-CHAPTER/Algorithm-Visualizer)
+- [Tab Saver Extension](https://github.com/OWASP-STUDENT-CHAPTER/TabSaverExtension)
+- [Backend Automation using NPM](https://github.com/OWASP-STUDENT-CHAPTER/backend-automation)
 
 <!-- This project is built using the MERN stack.<br> -->
 
