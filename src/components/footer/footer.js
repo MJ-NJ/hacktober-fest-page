@@ -12,7 +12,7 @@ return(
 <div class="footer-center">
 
     <div>
-        <p><span>Contact-Us</span><a href="mailto:owasp_sc@thapar.edu"> owasp_sc@thapar.edu </a><br/><a href="tel:+919674603907">  +91 9674603907</a></p>
+        <p><span>Contact-Us</span><a href="owasptu@gmail.com"> owasptu@gmail.com </a><br/> <a>General secretary : Prajit Sengupta</a><br/><a href="tel:+919674603907">  +91 9674603907</a></p>
         <p><span>Our-Website</span><a href='https://owasp.co.in/'>owasp.co.in</a></p>
     </div>
 </div>
