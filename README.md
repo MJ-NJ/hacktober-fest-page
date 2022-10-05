@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+![hacktoberfest](./banner.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hacktoberfest Page Owasp-tiet
 
-## Available Scripts
+A website made with [:heart] by Owasp-tiet containing all the projects of owasp-tiet participating in Hacktoberfest.
+The website contains following projects:
+- [Web Dev Tasks]("https://github.com/OWASP-STUDENT-CHAPTER/WebDev-Tasks")
+- [Tech Think Tank]("https://github.com/OWASP-STUDENT-CHAPTER/TechThinkTank")
+- [Algorithm Visualizer]("https://github.com/OWASP-STUDENT-CHAPTER/Algorithm-Visualizer")
+- [Tab Saver Extension]("https://github.com/OWASP-STUDENT-CHAPTER/TabSaverExtension")
+- [Backend Automation using NPM]("https://github.com/OWASP-STUDENT-CHAPTER/backend-automation")
 
-In the project directory, you can run:
+<!-- This project is built using the MERN stack.<br> -->
 
-### `npm start`
+# OWASP Student Chapter, TIET
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![logo-owasp.png](./logo-owasp.png) <br><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3 align="center">Thapar Institute of Engineering and Technology (TIET) has been a steady source of highly skilled talent to the nation as well as overseas. A pioneer in engineering education, research and innovation. The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries. By successfully organising many hackathons, tech-talks, workshops and coding nights, we have always strived hard to maintain the coding culture throughout the campus.</h3><br>
 
-### `npm test`
+<p align="center">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Check out our work at [owasp.co.in](http://owasp.co.in) </p>
 
-### `npm run build`
+## Contact Us
+<p style="text-align: center;">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Instagram](https://www.instagram.com/owasp_tiet/)
+</h3>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>
 
-### `npm run eject`
+[Github](https://github.com/OWASP-STUDENT-CHAPTER)
+</h3>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h3>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Twitter](https://twitter.com/Owasp_tiet)
+</h3>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h3>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Linkedin](https://www.linkedin.com/company/owasp-tiet/)
+</h3>
+</p>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
