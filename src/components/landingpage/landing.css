@@ -33,7 +33,7 @@ drop-shadow(rgba(124, 127, 255, 0.6) 0.5px 0.5px 1px);
   }
   
   :root {
-    --card-height: 60vh;
+    --card-height: 67vh;
     --card-height--github:50vh;
     --card-width: calc(var(--card-height) / 1.5);
   }

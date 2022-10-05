@@ -10,7 +10,8 @@ function About(){
     <div className="card1">
 
     <p className='p1'>
-    Hacktoberfest is for everyone. Whether it’s your first time—or your ninth—it’s almost time to hack out four pristine pull/merge requests and complete your mission for open source. Join other members of the open-source community on the hacktoberfest discord.Pen-source projects, maintained by community-minded coders, make the modern internet function.
+    Hacktoberfest'22  marks the 8th edition of Hacktoberfest, organized by DigitalOcean, a month-long celebration of open-source coding and software  Team OWASP provides five open source projects to which you can display and contribute - Web-Dev Tasks, Tech Think Tank, Algorithm Visualiser, Tab Saver Extension and Backend-automation NPM. These projects are widely available for contribution by people from various tech stacks. 
+Hack out four pristine pull/merge requests and win exciting goodies and swags!
     </p>
     </div>
 
