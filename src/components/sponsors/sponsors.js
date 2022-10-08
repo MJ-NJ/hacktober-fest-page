@@ -28,7 +28,7 @@ function Sponsors(){
                 <img src= {require("./sponsors/Postman.png")}/>
         </figure>
         <figure class="card2">
-                <img src= {require("./sponsors/IBM.png") }style = {jiostyle}/>
+                <img src= {require("./sponsors/polygon.png") }/>
         </figure>
         <figure class="card2">
                 <img src=  {require("./sponsors/redbull.png") } />
